@@ -47,6 +47,8 @@ body {
 
 .carousel {
     background: #512DA8;
+    left: 0px;
+    right: 0px;
 }
 
 .carousel .carousel-item {
