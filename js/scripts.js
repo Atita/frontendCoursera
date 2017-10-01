@@ -10,4 +10,13 @@ $(document).ready(function() {
       $("#carousel-button").children("span").addClass('fa-pause');
     }
   });
+
+  $("#login").click(function() {
+    $("#loginModal").modal('show');
+  });
+
+  $("#reserve").click(function() {
+    $("#reserveform-modal").modal('show');
+  });
+
 });
